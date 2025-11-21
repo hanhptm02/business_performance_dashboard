@@ -31,4 +31,4 @@ Lập danh sách các metric quan trọng cần theo dõi thành các chart và 
 Dựng các chart, format dashboard trên Power BI
 
 Quy trình trên được tóm gọn trong sơ đồ sau:
-https://app.diagrams.net/#G1KnvnDe2BaUyCyyarCEtLvWjDCHFJu_xw#%7B%22pageId%22%3A%22Lhe7gLIpk4J3ip-Vg2qy%22%7D
+![alt text](https://github.com/hanhptm02/business_performance_dashboard/blob/main/Data%20Linage.drawio.png)
