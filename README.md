@@ -31,8 +31,8 @@ Power BI
   - Transform dữ liệu và lưu vào các bảng Fact.
 - Step 2: Data Processing  
 Xây dựng Procedure với tham số thời gian để lưu trữ các chỉ tiêu cần theo dõi vào bảng fact
-  * fact_area_metrics_monthly
-  * fact_asm_metrics_monthly
+  * fact_area_metrics_monthly: Lưu giá trị của các chỉ tiêu tại từng khu vực hàng tháng
+  * fact_asm_metrics_monthly: Lưu giá trị của các chỉ tiêu của từng nhân viên kinh doanh hàng tháng
 - Step 3: Visualization  
   * Lập danh sách các metric quan trọng cần theo dõi thành các chart và nguồn dữ liệu tương ứng
   * Tạo view, import các dữ liệu cần sử dụng sang Power BI  
