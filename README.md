@@ -9,7 +9,7 @@ Nguồn dữ liệu là các file excel sau:
 - [fact_kpi_asm](kpi_asm_data_202305.xlsx): Thông tin về kết quả kinh doanh của từng Area Sales Manager (ASM) Files
   
 3. **Output**
-Sản phẩm cuối cùng là Dashboard Power BI phục vụ theo dõi hoạt động kinh doanh:
+Sản phẩm cuối cùng là [Dashboard Power BI theo dõi kết quả kinh doanh của MH Finance Solutions](final_project.pbix) phục vụ theo dõi hoạt động kinh doanh:
 * Báo cáo kết quả kinh doanh trong tháng theo khu vực
 * Báo cáo kết quả kinh doanh của Area Sales Manager trong tháng
 * Theo dõi tổng quan hoạt động kinh doanh của doanh nghiệp
