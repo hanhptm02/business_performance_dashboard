@@ -8,10 +8,15 @@ Nguồn dữ liệu là các file excel sau:
 - [fact_txn_month_raw_data](fact_txn_month_raw_data_202402020504.xlsx): Thông tin giao dịch của các tài khoản GL
 - [fact_kpi_asm](kpi_asm_data_202305.xlsx): Thông tin về kết quả kinh doanh của từng Area Sales Manager (ASM) Files
   
-3. Output  
-Dashboard theo dõi hoạt động kinh doanh của ... Files
+3. Output
+Sản phẩm cuối cùng là Dashboard Power BI phục vụ theo dõi hoạt động kinh doanh:
+* Báo cáo kết quả kinh doanh trong tháng theo khu vực
+* Báo cáo kết quả kinh doanh của Area Sales Manager trong tháng
+* Theo dõi tổng quan hoạt động kinh doanh của doanh nghiệp
+* Theo dõi kết quả hoạt động kinh doanh theo từng khu vực
+* Theo dõi kết quả hoạt động kinh doanh theo từng nhân viên kinh doanh
 
-4. Công cụ sử dụng  
+5. Công cụ sử dụng  
 Excel  
 DBeaver + PostgreSQL  
 Power BI
@@ -21,14 +26,17 @@ Power BI
 Format lại file excel trước khi import vào Database:
 -- Bỏ merge cell
 -- Đặt lại tên cột  
-Chuyển dữ liệu vào bảng Staging để chuẩn hóa dữ liệu trước khi lưu trữ trong các bảng fact (nếu cần).  
-Kiểm tra dữ liệu đã import đúng với file excel. Lưu trữ dữ liệu sau khi đã được transform trong các bảng fact
+Lưu dữ liệu chưa chuẩn hóa vào bảng Staging (nếu cần).  
+Kiểm tra dữ liệu đã import đúng với file excel.  
+Transform dữ liệu và lưu vào các bảng Fact.
 - Step 2: Data Processing  
-Từ dữ liệu input đã được lưu trong bảng fact, tính toán các metric phục vụ dashboard và lưu trong các bảng fact bằng cách Xây dựng procedure với input là thời gian để insert dữ liệu vào các bảng fact này.
+Xây dựng Procedure với tham số thời gian để lưu trữ các chỉ tiêu cần theo dõi vào bảng fact
+* fact_area_metrics_monthly
+* fact_asm_metrics_monthly
 - Step 3: Visualization  
 Tạo view, import các dữ liệu cần sử dụng sang Power BI  
 Lập danh sách các metric quan trọng cần theo dõi thành các chart và nguồn dữ liệu tương ứng  
 Dựng các chart, format dashboard trên Power BI
 
-Quy trình trên được tóm gọn trong sơ đồ sau:
+Quy trình trên được trình bày trong sơ đồ sau:
 ![alt text](https://github.com/hanhptm02/business_performance_dashboard/blob/main/Data%20Linage.drawio.png)
