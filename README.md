@@ -5,7 +5,7 @@ Chuyển đổi dữ liệu thô thành báo cáo trực quan trên Power BI đ�
 2. Input data  
 Nguồn dữ liệu là các file excel sau:
 - fact_kpi_month: Thông tin của hồ sơ theo tháng
-- fact_txn_month: Thông tin giao dịch của các tài khoản GL
+- [fact_txn_month_raw_data](fact_txn_month_raw_data_202402020504.xlsx): Thông tin giao dịch của các tài khoản GL
 - fact_kpi_asm: Thông tin về kết quả kinh doanh của từng Area Sales Manager (ASM) Files
   
 3. Output  
