@@ -8,7 +8,7 @@ Nguồn dữ liệu là các file excel sau:
 - [fact_txn_month_raw_data](fact_txn_month_raw_data_202402020504.xlsx): Thông tin giao dịch của các tài khoản GL
 - [fact_kpi_asm](kpi_asm_data_202305.xlsx): Thông tin về kết quả kinh doanh của từng Area Sales Manager (ASM) Files
   
-3. **Output**
+3. **Output**  
 Sản phẩm cuối cùng là [Dashboard Power BI theo dõi kết quả kinh doanh của MH Finance Solutions](final_project.pbix) phục vụ theo dõi hoạt động kinh doanh:
 * Báo cáo kết quả kinh doanh trong tháng theo khu vực
 * Báo cáo kết quả kinh doanh của Area Sales Manager trong tháng
