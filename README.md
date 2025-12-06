@@ -21,7 +21,7 @@ Excel
 DBeaver + PostgreSQL  
 Power BI
 
-6. **Quy trình sử lý**
+6. **Quy trình xử lý**
 - Step 1: Data Preparation  
   - Format lại file Excel trước khi import vào Database:
       - Bỏ merge cell  
